@@ -1,13 +1,13 @@
-package com.example.secondproject;
+package com.example.webbackend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SecondprojectApplication {
+public class WebbackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SecondprojectApplication.class, args);
+		SpringApplication.run(WebbackendApplication.class, args);
 	}
 
 }
