@@ -7,10 +7,11 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 public class ArticleForm {
+    private Long id;
     public String title;
     public String content;
 
     public Article toEntity() {
-        return new Article(null, title, content);
+        return new Article(id, title, content);
     }
 }
